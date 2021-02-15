@@ -20,6 +20,7 @@ axios.get(url).then((res) => {
   logTodo(id, title, completed);
 });
 
+// I define types for variables to make sure that the sending of the variables is done correctly.
 const logTodo = (id: number, title: string, completed: boolean) => {
   console.log(`
     The Todo with ID: ${id}
