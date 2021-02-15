@@ -1,3 +1,10 @@
+// If we do decleration and initialization on the same line
+// TypeScript will use type inference for us.
+// We tell Typescript the type:
+// When we declare a variabe on one line then initialize it later.
+// When we want a variable to have a type that can't be inferred.
+// When a function retuns the 'any' type and we need to clarify whe value.
+
 let apples: number = 5;
 let speed: string = 'fast';
 let hasName: boolean = true;
